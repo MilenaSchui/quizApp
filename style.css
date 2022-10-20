@@ -151,3 +151,8 @@ a:active {
   width: 80%;
   position: relative;
 }
+
+.show-answer {
+  margin: 0 auto;
+  display: block;
+}
