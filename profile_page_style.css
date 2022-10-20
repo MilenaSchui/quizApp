@@ -3,6 +3,21 @@
     color: white;
 }
 */
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.profile{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    width: auto;
+    display: grid;
+    grid-template-areas: 
+    "a b";
+}
 
 .header__profile {
     width: 100%;
@@ -12,6 +27,17 @@
     align-items: center;
 }
 
+.profile__name{
+    grid-area: "b";
+    display: flex;
+    align-self: center;
+justify-items: center;}
+
 .profile__img {
     border-radius: 15%;
+    grid-area: "a";
+}
+
+.profile__article{
+
 }
