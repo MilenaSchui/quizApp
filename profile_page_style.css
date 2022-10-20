@@ -15,8 +15,9 @@ a{
     margin: 1rem;
     width: auto;
     display: grid;
-    grid-template-areas: 
-    "a b";
+    grid-template-areas: "a b"
+    "c c";
+    
 }
 
 .header__profile {
@@ -28,10 +29,11 @@ a{
 }
 
 .profile__name{
-    grid-area: "b";
     display: flex;
-    align-self: center;
-justify-items: center;}
+    align-items: center;
+    justify-items: center;
+    grid-area: "b";
+}
 
 .profile__img {
     border-radius: 15%;
@@ -39,5 +41,15 @@ justify-items: center;}
 }
 
 .profile__article{
+    grid-area: "c";
+}
+
+.counter__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.counter{
+    border: solid black 1px;
 
 }
