@@ -53,6 +53,14 @@ h6 {
 }
 /* End CSS Reset */
 
+:root {
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
 body {
   /* background-color: blueviolet; */
 }
@@ -110,7 +118,7 @@ footer {
 
 a {
   /* background-color: greenyellow; */
-  color: darkgreen;
+  /* color: darkgreen; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -122,15 +130,15 @@ a:active {
   background-color: red;
 }
 
-.fa-house {
+.house-icon {
   grid-area: home;
 }
 
-.fa-bookmark {
+.bookmark-icon {
   grid-area: bookmark;
 }
 
-.fa-user {
+.profile-icon {
   grid-area: profile;
 }
 
