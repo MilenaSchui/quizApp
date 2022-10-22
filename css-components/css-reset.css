@@ -1,0 +1,63 @@
+/* Start CSS Reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+
+/* html,
+body {
+  height: 100%;
+} */
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: var(--font-color);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+/* End CSS Reset */
