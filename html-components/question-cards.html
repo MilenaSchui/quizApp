@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="qc-styles.css" />
+    <link rel="stylesheet" href="/css-components/qc-styles.css" />
     <script
       src="https://kit.fontawesome.com/6d931fc6c5.js"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="qc.js" defer></script>
+    <script type="text/javascript" src="/js-components/qc.js" defer></script>
     <title>Question Cards</title>
   </head>
   <body>
@@ -22,11 +22,16 @@
         expedita nostrum quam optio maiores officiis consequatur ea, sint enim
         cum repudiandae inventore ab nemo?
       </p>
-      <div class="bookmark">
-        <i class="fa-regular fa-bookmark fa-lg"></i>
-      </div>
-      <button class="answer-button" data-js="answer-button">Show Answer</button>
-      <ul class="answer-container" hidden data-js="answer-container"></ul>
+      <img
+        class="qc-bookmark-icon"
+        src="/assets/bookmark-icon.png"
+        alt="bookmark icon"
+        width="32px"
+      />
+      <button class="answer-button-1" data-js="answer-button">
+        Show Answer
+      </button>
+      <ul class="answer-container-1" hidden data-js="answer-container"></ul>
       <div class="container-categories">
         <button class="category-button category-html">#html</button>
         <button class="category-button category-flexbox">#flexbox</button>
