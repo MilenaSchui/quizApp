@@ -127,7 +127,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
 } */
 
-.show-answer {
+.answer {
   background-color: hotpink;
   border-radius: 7px;
   border: none;
@@ -141,9 +141,13 @@ button {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
 }
 
+.hide-answer {
+  display: none;
+}
+
 /* .show-answer {
-    background-color: beige;
-    margin: 0 auto;
-    display: block;
-    padding: 5px;
-  }*/
+  background-color: beige;
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+} */
