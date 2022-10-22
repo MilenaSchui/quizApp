@@ -37,6 +37,18 @@ a {
   align-items: center;
 }
 
+.button {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  text-decoration: none;
+  transition: background 0.5s;
+  letter-spacing: 3px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: solid 1px #4a0d86;
+}
+
 .profile {
   border: 1px solid black;
   border-radius: 10px;
@@ -76,7 +88,9 @@ a {
 }
 
 .settings {
-  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /*.footer__profile {
