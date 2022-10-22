@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +27,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  color: var(--font-color);
 }
 
 img,
@@ -52,14 +61,6 @@ h6 {
   isolation: isolate;
 }
 /* End CSS Reset */
-
-:root {
-  --primary-color: #302ae6;
-  --secondary-color: #536390;
-  --font-color: #424242;
-  --bg-color: #fff;
-  --heading-color: #292922;
-}
 
 body {
   /* background-color: blueviolet; */
@@ -132,6 +133,10 @@ a:active {
 
 .house-icon {
   grid-area: home;
+}
+
+.active{
+  background-color: red;
 }
 
 .bookmark-icon {
