@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
 }
-*/
+
 
 /* html,
 body {
@@ -28,6 +28,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   color: var(--font-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img,
@@ -62,64 +63,66 @@ h6 {
 }
 /* End CSS Reset */
 
-body {
-  /* background-color: blueviolet; */
-}
-
 header {
-  /* background-color: aqua; */
   width: 100%;
-  height: 10vh;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  transition: 1.5s;
+  box-shadow: 0px 8px 10px #302ae6;
+  white-space: nowrap;
+}
+
+.animation{
+ letter-spacing: 20px;
 }
 
 main {
-  /* background-color: blue; */
   width: 100%;
+  height: 3000px; /*delete later*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
   margin-bottom: 20%;
+  margin-top: 80px;
 }
 
 footer {
-  /* background-color: brown; */
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 10%;
+  height: 70px;
+  background-color: var(--primary-color);
+  box-shadow: -8px 0px 10px #302ae6;
+
 }
 
 .navbar {
-  background-color: gold;
   height: 100%;
+ 
 }
 
 .navbar ul {
-  /* background-color: bisque; */
+  height: 100%;
   display: grid;
   grid-template-areas: "home bookmark profile";
   list-style: none;
   width: 100%;
-  height: 100%;
 }
 
 .navbar ul li {
-  /* background-color: coral; */
-  text-align: center;
   height: 100%;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 a {
-  /* background-color: greenyellow; */
-  /* color: darkgreen; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -128,7 +131,7 @@ a {
 }
 
 a:active {
-  background-color: red;
+  background-color: var(--secondary-color);
 }
 
 .house-icon {
@@ -136,7 +139,8 @@ a:active {
 }
 
 .active{
-  background-color: red;
+  background-color: var(--secondary-color);
+
 }
 
 .bookmark-icon {
@@ -147,7 +151,7 @@ a:active {
   grid-area: profile;
 }
 
-.bookmark {
+.bookmark i {
   position: absolute;
   right: 5%;
   top: -0.5em;
@@ -156,7 +160,6 @@ a:active {
 
 .question-card-1,
 .question-card-2 {
-  /* background-color: hotpink; */
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem;
