@@ -1,14 +1,13 @@
 header {
-  /* background-color: aqua; */
   width: 100%;
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary-color);
-  color: var(--bg-color);
+  background: radial-gradient(circle, gold, rgb(252, 235, 137));
+  color: black;
   transition: 1.5s;
-  box-shadow: 0px 8px 10px #302ae6;
+  box-shadow: 0px 2px 8px black;
   white-space: nowrap;
 }
 
