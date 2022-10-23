@@ -1,13 +1,13 @@
-const header = document.querySelector("#home");
+const header = document.querySelector("[data-js='animation']");
 
-function addAnimation(){
+function addAnimation(x){
     header.classList.add("animation");
-    setTimeout(removeAnimation, 1500)
+    setTimeout(removeAnimation, x, 1500)
 }
 
-function removeAnimation(){
+function removeAnimation(x){
     header.classList.remove("animation");
-    setTimeout(addAnimation, 1500)
+    setTimeout(addAnimation, x, 1500)
 }
 
-addAnimation();
+removeAnimation(100);
