@@ -26,5 +26,8 @@ main {
   gap: 2rem;
   margin-bottom: 20%;
   margin-top: 80px;
+}
+
+body {
   font-family: "Roboto", sans-serif;
 }
