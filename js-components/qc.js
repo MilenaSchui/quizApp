@@ -144,3 +144,9 @@ answerButtonTen.addEventListener("click", function handleClick() {
     answerButtonTen.textContent = initialText;
   }
 });
+
+const qcBookmark = document.querySelector(".qc-bookmark-icon");
+
+qcBookmark.addEventListener("click", (event) => {
+  event.preventDefault;
+});
