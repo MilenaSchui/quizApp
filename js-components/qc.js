@@ -145,8 +145,125 @@ answerButtonTen.addEventListener("click", function handleClick() {
   }
 });
 
-const qcBookmark = document.querySelector(".qc-bookmark-icon");
+//Start code for bookmark buttons in QCs to change color
 
-qcBookmark.addEventListener("click", (event) => {
-  event.preventDefault;
+const bookmark1 = document.querySelector(".qc-bookmark-icon1");
+
+bookmark1.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img1").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img1").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img1").src = "assets/bookmark-icon.jpeg";
+  }
 });
+
+const bookmark2 = document.querySelector(".qc-bookmark-icon2");
+
+bookmark2.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img2").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img2").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img2").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+const bookmark3 = document.querySelector(".qc-bookmark-icon3");
+
+bookmark3.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img3").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img3").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img3").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+const bookmark4 = document.querySelector(".qc-bookmark-icon4");
+
+bookmark4.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img4").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img4").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img4").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+const bookmark5 = document.querySelector(".qc-bookmark-icon5");
+
+bookmark5.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img5").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img5").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img5").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+const bookmark6 = document.querySelector(".qc-bookmark-icon6");
+
+bookmark6.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img6").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img6").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img6").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+const bookmark7 = document.querySelector(".qc-bookmark-icon7");
+
+bookmark7.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img7").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img7").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img7").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+const bookmark8 = document.querySelector(".qc-bookmark-icon8");
+
+bookmark8.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img8").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img8").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img8").src = "assets/bookmark-icon.jpeg";
+  }
+});
+const bookmark9 = document.querySelector(".qc-bookmark-icon9");
+
+bookmark9.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img9").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img9").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img9").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+const bookmark10 = document.querySelector(".qc-bookmark-icon10");
+
+bookmark10.addEventListener("click", () => {
+  let img = document.getElementById("bookmark-img10").src;
+  if (img.indexOf("bookmark-icon.jpeg") != -1) {
+    document.getElementById("bookmark-img10").src =
+      "assets/bookmark-icon-fullblack.jpeg";
+  } else {
+    document.getElementById("bookmark-img10").src = "assets/bookmark-icon.jpeg";
+  }
+});
+
+//End code for bookmark buttons in QCs to change color
