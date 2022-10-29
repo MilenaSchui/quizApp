@@ -12,7 +12,7 @@ header {
   overflow: hidden;
 }
 
-.animation{
+.animation {
   letter-spacing: 20px;
 }
 
@@ -26,4 +26,8 @@ main {
   gap: 2rem;
   margin-bottom: 20%;
   margin-top: 80px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }

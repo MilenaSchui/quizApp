@@ -44,5 +44,5 @@ a {
   align-items: center;
 }
 .active {
-  background-color: grey;
+  background-color: rgba(115, 44, 44, 0.5);
 }

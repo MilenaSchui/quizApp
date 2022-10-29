@@ -11,3 +11,8 @@
 /* @import "/css-components/profile_page_style.css"; */
 
 @import "/css-components/form.css";
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/Fonts/Roboto/Roboto-Regular.ttf");
+} ;
