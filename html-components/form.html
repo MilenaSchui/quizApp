@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css-components/style.css" />
-    <link rel="stylesheet" href="/css-components/form.css" />
     <script type="text/javascript" src="/js-components/form.js" defer></script>
 </head>
 <body>
@@ -20,13 +19,13 @@
         </h1>
       </header>
       <main>
-      <section class="question-card">
-        <form action="">
-            <h2>It's time to create a new card!</h2>
+      <section class="question-card form-style" data-js="form-js">
+        <form action="" class="form-items">
+            <h2>Create a new card</h2>
             <label for="question-area">Question</label>
-            <textarea name="question" id="question-area" cols="30" rows="10"></textarea>
+            <textarea name="question" id="question-area" placeholder="Leave here a question..." cols="30" rows="10"></textarea>
             <label for="answer-area">Answer</label>
-            <textarea name="answer" id="answer-area" cols="30" rows="10"></textarea>
+            <textarea name="answer" id="answer-area" placeholder="Please let us know the answer..." cols="30" rows="10"></textarea>
             <button type="submit">Submit</button>
         </form>
       </section>
