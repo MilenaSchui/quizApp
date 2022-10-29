@@ -79,3 +79,14 @@ button {
 .hide-answer {
   display: none;
 }
+
+.qc-bookmark-icon {
+  position: absolute;
+  right: 5%;
+  top: -0.9rem;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  width: 1.3rem;
+  height: 1.5rem;
+}
