@@ -8,12 +8,6 @@ button {
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
-.qc-bookmark-icon {
-  position: absolute;
-  right: 5%;
-  top: -1rem;
-}
-
 .question-card {
   /* background-color: hotpink; */
   border: 1px solid black;
@@ -48,7 +42,8 @@ button {
   border-radius: 5px;
   border: 1px solid #000;
   padding: 5px;
-  width: 23%;
+  width: 30%;
+  height: 1.3rem;
 }
 
 .container-categories {
@@ -58,7 +53,7 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 1%;
+  gap: 2%;
 }
 
 .answer {
@@ -83,7 +78,7 @@ button {
 .qc-bookmark-icon {
   position: absolute;
   right: 5%;
-  top: -0.9rem;
+  top: -0.8rem;
   background-color: #fff;
   padding: 0;
   margin: 0;
