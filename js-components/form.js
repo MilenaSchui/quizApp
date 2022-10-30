@@ -7,19 +7,20 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const newCard = document.createElement("section");
-  newCard.classList.add("form-style");
-
+  newCard.classList.add("question-card");
   cardCreation.append(newCard);
 
   const question = document.createElement("p");
-  question.textContent = "Question: " + qInput.value;
+  question.textContent = qInput.value;
   question.classList.add("question-card");
-
   newCard.append(question);
 
-  const answer = document.createElement("li");
-  answer.textContent = "Answer: " + aInput.value;
-  answer.classList.add("question-card");
+  const bookmark = document.createElement("img");
+  bookmark.classList.add("qc-bookmark-icon");
+  newCard.append(bookmark);
 
+  const answer = document.createElement("p");
+  answer.textContent = aInput.value;
+  answer.classList.add("question-card");
   newCard.append(answer);
 });
