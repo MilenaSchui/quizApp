@@ -9,10 +9,10 @@ form.addEventListener("submit", (event) => {
 
   const newCard = document.createElement("section");
   newCard.classList.add("question-card");
-  cardCreation.append(newCard);
+  cardCreation.prepend(newCard);
 
   const question = document.createElement("p");
-  question.textContent = "Question: " + qInput.value;
+  question.textContent = qInput.value;
   newCard.append(question);
 
   const bookmark = document.createElement("img");
@@ -21,10 +21,10 @@ form.addEventListener("submit", (event) => {
   bookmark.alt = "bookmark icon";
   newCard.append(bookmark);
 
-  const answer = document.createElement("ul");
-  answer.textContent = "Answer: " + aInput.value;
-  answer.classList.add("question-card");
-  newCard.append(answer);
+  const button = document.createElement("button");
+  button.classList.add("answer-button-1");
+  button.textContent = "Show Answer";
+  newCard.append(button);
 
   const tagContainer = document.createElement("section");
   tagContainer.classList.add("container-categories");
@@ -49,4 +49,6 @@ form.addEventListener("submit", (event) => {
   tagJs.textContent = "#js";
   tagJs.classList.add("category-button");
   tagContainer.append(tagJs);
+
+  form.reset();
 });
